@@ -1,0 +1,99 @@
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header{
+    position: relative;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola{
+    background-image: url(img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu ul{
+    font-size: 15px;
+}
+
+.menu a{
+    color: #003366;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+/*parte2*/
+
+.busca, .menu-dois{
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+}
+
+.busca h2, .busca form, .menu-dois h2{
+    margin: 10px;
+}
+
+.menu-dois li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-dois a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.menu-dois{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    clear: left;
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: block;
+}
+
+.destaque{
+    margin-top: 10px;
+}
